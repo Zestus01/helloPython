@@ -67,3 +67,16 @@ print(myCar)
 naodCar = Car('Tayota')
 print(naodCar.mileage)
 print(naodCar.model)
+
+class prompt:
+    def __init__(self):
+        self.text = input('Text: ')
+        self.name = input('Name: ')
+    def __str__(self):
+        return f"{self.name} is doing {self.text}"
+
+fun = prompt()
+print(fun)
+
+new_one = prompt()
+print(new_one)
